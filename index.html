@@ -6,6 +6,8 @@
 	<meta name="Author" content="Zhiyan Yi">
 	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&family=Parisienne&display=swap" rel="stylesheet">
 	<link href="carousel.css" rel="stylesheet">
 	<title>Document</title>
 
@@ -14,9 +16,6 @@
 	<header>	
 	<!-- Header part -->
 	<nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
-		<!--
-		<a class="nav-brand" href="#"><img src="https://img.pngio.com/williams-high-school-utah-utes-football-university-of-utah-university-of-utah-png-900_900.png" height="40" width="40" alt="logo"></a>
-		-->
 		<a class="nav-brand" href="#"><img src="brand/u_logo.png" height="40" width="40" alt="logo"></a>
 		<button id="navbar-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -24,12 +23,12 @@
 
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link" href="#">Homepage</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+				<li class="nav-item"><a class="nav-link" href="index_v2.html">Homepage</a></li>
+				<li class="nav-item"><a class="nav-link" href="biography.html">Biography</a></li>
+				<li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-				<li class=nav-item><a class="nav-link" href="Publications.html">Publications</a></li>
-				<li class=nav-item><a class="nav-link" href="#">Opportunities</a></li>
-				<li class=nav-item><a class="nav-link" href="#">Test changes4</a></li>
+				<li class=nav-item><a class="nav-link" href="publications.html">Publications</a></li>
+				<li class=nav-item><a class="nav-link" href="opportunities.html">Opportunities</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -38,70 +37,32 @@
 	<main>
 		<!--Carousel -->
 		<div id="carouselScroll" class="carousel slide" data-ride="carousel" data-interval="5000">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselScroll" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselScroll" data-slide-to="1"></li>
-		    <li data-target="#carouselScroll" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active" id="slide1">
-		      <img src="brand/u_school.jpg" class="d-block w-100" height="500" alt="EV_project">
-		      <div class="carousel-caption d-none d-block">
-		      	<h1>The University of Utah</h1>
-		      	<p>#97 in National Universities</p>
-		      	<p>#40 in Top Public Schools</p>
-		      	<p>#51 in Best Engineering Schools</p>
-		      </div>
-		    </div>
-		    <div class="carousel-item" id="slide2">
-		      <img src="brand/kepler-gl.png" class="d-block w-100" height="500" alt="EV_project">
-		      <div class="carousel-caption d-none d-block">
-		      	<h2>UofU-Traffic Lab</h2>
-		      	<p>Our team focuses on researches including: </p>
-		      	<ul>
-		      		<li>Shared mobility</li>
-		      		<li>Public transit</li>
-		      		<li>Large-scale transportation modeling and simulation</li>
-		      		<li>Geographical spatio-temporal analysis</li>
-		      	</ul>
-		      </div>
-		    </div>
-		    <div class="carousel-item" id="slide3">
-		      <img src="brand/kepler-gl3.png" class="d-block w-100" height="500" alt="EV_project">
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselScroll" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselScroll" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
+			<!--Find it in snippet-carousel -->
 		</div>
 		<!--End of Carousel -->
-		<!-- start of the three bullet point-->
+
+		<!-- start of the 4 bullet points-->
 		<div class="container marketing" id="main-part">
 			<div class="row">
-				<div class="col-sm-6 col-md-3" id="box1">
+				<div class="col-sm-6 col-md-3 box" id="box1">
 					<div id="body-logo1"><img src="brand/Resume.svg" height="100" width="100" alt="biography-logo"></div>
 					<h2>Biography</h2>
-					<p><a class="btn btn-outline-secondary" href="#" role="button">View details &raquo;</a></p>
+					<p><a class="btn btn-outline-secondary" href="biography.html" role="button">View details &raquo;</a></p>
 				</div>
-				<div class="col-sm-6 col-md-3" id="box2">
+				<div class="col-sm-6 col-md-3 box" id="box2">
 					<div id="body-logo2"><img src="brand/team2.svg" height="100" width="100" alt="team-logo"></div>
 					<h2>Team</h2>
-					<p><a class="btn btn-outline-secondary" href="#" role="button">View details &raquo;</a></p>
+					<p><a class="btn btn-outline-secondary" href="team.html" role="button">View details &raquo;</a></p>
 				</div>
-				<div class="col-sm-6 col-md-3" id="box3">
+				<div class="col-sm-6 col-md-3 box" id="box3">
 					<div  id="body-logo3"><img src="brand/projects2.svg" height="100" width="100" alt="project-logo"></div>
 					<h2>Projects</h2>
 					<p><a class="btn btn-outline-secondary" href="#" role="button">View details &raquo;</a></p>
 				</div>
-				<div class="col-sm-6 col-md-3" id="box4">
+				<div class="col-sm-6 col-md-3 box" id="box4">
 					<div id="body-logo4"><img src="brand/book.svg" height="100" width="100" alt="publication-logo"></div>
 					<h2>Publications</h2>
-					<p><a class="btn btn-outline-secondary" href="#" role="button">View details &raquo;</a></p>
+					<p><a class="btn btn-outline-secondary" href="publications.html" role="button">View details &raquo;</a></p>
 				</div>
 			</div>
 
@@ -117,7 +78,7 @@
 					<p class="lead"><a href="#">Email: cathy.liu@utah.edu</a></p>
 				</div>
 				<div class="col-md-5">
-					<img src="brand/Cathy.jpg" height="380" width="290" alt="Cathy Selfie">
+					<div id="profile-pic"><img src="brand/Cathy.jpg" height="380" width="290" alt="Cathy Selfie"></div>
 				</div>
 			</div>
 			<hr class="featurette-divider">
@@ -125,19 +86,19 @@
 			<div class="row">
 				<div class="col-md-5">
 					<div id="project-frame">
-						<p><a class="btn btn-secondary project-btn" id="project-btn1" href="#" role="button">Project 1</a>
-						<a class="btn btn-secondary project-btn" id="project-btn2" href="#" role="button">Project 2</a>
-						<a class="btn btn-secondary project-btn" id="project-btn3" href="#" role="button">Project 3</a>
-						<a class="btn btn-secondary project-btn" id="project-btn4" href="#" role="button">Project 4</a>
-						<a class="btn btn-secondary project-btn" id="project-btn5" href="#" role="button">Project 5</a>
-						<a class="btn btn-secondary project-btn" id="project-btn6" href="#" role="button">Project 6</a>
-						<a class="btn btn-secondary project-btn" id="project-btn7" href="#" role="button">Project 7</a>
-						<a class="btn btn-secondary project-btn" id="project-btn8" href="#" role="button">Project 8</a>
-						<a class="btn btn-secondary project-btn" id="project-btn9" href="#" role="button">Project 9</a></p>
+						<p><a class="btn btn-secondary project-btn" id="project-btn1" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn2" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn3" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn4" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn5" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn6" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn7" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn8" href="#" role="button"></a>
+						<a class="btn btn-secondary project-btn" id="project-btn9" href="#" role="button"></a></p>
 					</div>
 				</div>
 				<div class="col-md-7" id="project-intro">
-					<div style="margin-left: 100px">
+					<div >
 					<h2 class="featurette-heading">Our research interests:</h2>
 					<p class="lead">Shared Mobility</p>
 					<p class="lead">Public Transit</p>
@@ -149,21 +110,56 @@
 			</div>
 			<hr class="featurette-divider">
 
-			<div class="row">
-				<div class="col-md-7">
-					<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-				</div>
-				<div class="col-md-5">
-					<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>	
+			<div class="row" id="news-row">
+				<div>
+					<h2 class="featurette-heading" id="spatial-vis" style="font-family: 'Pacifico', cursive; font-size: 50px">News</h2>
+					<h3 class="text-muted" style="font-family: 'Cookie', cursive; font-size: 30px">Our latest paper : </h3>
+					<h3 class="text-muted" style="font-family: 'Cookie', cursive; font-size: 30px"><u>Bi-Objective Optimization for Battery Electric Bus Deployment Considering Cost and Environmental Equity</u></h3>
+					<h3 class="text-muted" style="font-family: 'Cookie', cursive; font-size: 30px"> has been published on <u>IEEE Transactions on Intelligent Transportation Systems</u> now.</h3>
+					<img class="d-none d-sm-block" src="brand/Newscover.png" width="300" height="350" align="right">
+					<p class="lead" style="font-family: 'Cookie', cursive; font-size: 25px; text-align: justify;">Sustainable development of the transport system
+						has been the consensus around the world for the past decades.
+						Encouraged by the urgent need for cleaner alternatives to
+						fossil fuels, vehicle electrification has been advancing at an
+						unprecedented pace. As a major component of the multimodal
+						transportation system, public transit is at the forefront of adopting battery technology into its operation. Battery Electric Bus
+						(BEB), with superior features such as zero-emission and reduced
+						noise, is made ready for commercial deployment in the past
+						several years. However, it is still a grand challenge to successfully
+						deploy BEB system given the nature of the public transit system
+						and the unique spatio-temporal characteristics of BEB. This
+						research presents a bi-objective optimization model for BEB
+						deployment to consider constraints unique to the BEB system
+						and to address the trade-off between environmental equity for
+						the disadvantaged population and capital investment. The model
+						is further demonstrated using the transit system operated by the
+						Utah Transit Authority (UTA) to offer insights on the benefits
+						gained as a result of BEB deployment. Optimal deployment
+						plans under different budgets are provided to illustrate the
+						effectiveness of the model. The trade-offs in each of the plans are
+						further discussed and compared. This research set the foundation
+						for transit agencies to develop optimal deployment strategies
+						for BEB systems when multiple goals need to be considered,
+						allowing planners and decision-makers to create a transportation
+						ecosystem that better serves livable and sustainable communities.</p>
+					<p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9310704" target="_blank">Full access of this paper &raquo;</a></p>
+
 				</div>
 			</div>
 			<hr class="featurette-divider">
+		</div>
+		<!-- footer part -->
+		<div class="container">
+			<footer>
+				<a class="float-right" href="#">Back to top</a>
+				<p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			</footer>
 		</div>
 	</main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script><script src="dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/ajax-utils.js" type="text/javascript"></script>
       <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
