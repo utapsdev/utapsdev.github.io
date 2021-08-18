@@ -334,7 +334,7 @@
  #research-title, p {
 	text-align: center;
 }
-#news a:hover {
+.research a:hover {
 	text-shadow: 0.5px 0.5px 0.5px #003472;
 }
 .research a {
