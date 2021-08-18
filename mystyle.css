@@ -321,3 +321,33 @@
 #news a:hover {
 	text-shadow: 0.5px 0.5px 0.5px #003472;
 }
+.time {
+	text-align: right;	
+}
+
+/*   RESEARCH */
+
+.row.research-list {
+	padding: 20px 0 20px 0;
+	margin: 10px 0 10px 0;
+}
+ #research-title, p {
+	text-align: center;
+}
+#news a:hover {
+	text-shadow: 0.5px 0.5px 0.5px #003472;
+}
+.research a {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+#pics {
+	width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 15px;
+}
