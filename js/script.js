@@ -26,12 +26,13 @@ $(function() {
 })(window)
 
 	// for team page
+	/*
 	var insertProperty=function (string,propName,propValue) {
 		var propToReplace="{{"+propName+'}}';
 		string=string.replace(new RegExp(propToReplace,"g"),propValue);
 		return string
 	}
-
+ 
 	var teamSnippet="snippet/snippet-team.html";
 	$ajax.sendGetRequest(teamSnippet,
 		function (text) {
@@ -59,6 +60,7 @@ $(function() {
 				})
 
 		},false)
+		*/
 	// for publication page
 	var publications="snippet/snippet-publications.html";
 	$ajax.sendGetRequest(publications,
