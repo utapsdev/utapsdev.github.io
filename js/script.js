@@ -43,10 +43,12 @@ $(function() {
 					for (var i=0; i<teamInfo.length; i++) {
 						var temp_html=teamContent;
 						var name=teamInfo[i].name;
+						var name=teamInfo[i].type;
 						var email=teamInfo[i].Email;
 						var intro=teamInfo[i].introduction;
 						var photo=teamInfo[i].PhotoUrl;
 						temp_html=insertProperty(temp_html,"name",name);
+						temp_html=insertProperty(temp_html,"type",name);
 						temp_html=insertProperty(temp_html,"email",email);
 						temp_html=insertProperty(temp_html,"intro",intro);
 						temp_html=insertProperty(temp_html,"PhotoUrl",photo);
