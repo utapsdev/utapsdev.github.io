@@ -183,6 +183,15 @@
 .row.team-member {
 	height: 400px;
 }
+#team-name a {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+#team-name  a:hover {
+	text-shadow: 0.5px 0.5px 0.5px #003472;
+}
 .team-member-profilepic div {
 	background-size: 360px 400px;
 	background-repeat: no-repeat;
