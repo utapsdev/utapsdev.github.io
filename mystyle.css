@@ -107,7 +107,9 @@
 #spatial-vis {
 	margin-top: 45px;
 }
-
+h2.featurette-heading{
+	text-align: center;
+}
 
 /* biography page design */
 .biography-title {
@@ -140,24 +142,28 @@
 	font-family: 'Bungee Inline', cursive;
 	color:#c93756;
 }
-#publications-full_list {
+#publications-full_list  {
 	font-family: 'Roboto', sans-serif ;
 	font-size: 20px;
 }
 
-#publications-list a,#publications-list li {
+#publications-list  {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+#publications-list a:hover {
+	text-shadow: 0.5px 0.5px 0.5px #003472;
+}
+#paper-list   a,#paper-list li {
 	font-family: 'Roboto', sans-serif;
 	color: #696969;
 	text-decoration: none;
 	padding-bottom: 15px;
 }
 
-#publications-list a:hover {
-	text-shadow: 0.5px 0.5px 0.5px #003472;
-}
-#publications-list a:visited {
-	color: #1685a9;
-}
+
 /* opprtunities page design */
 #Opportunities-frame {
 	font-family: 'Roboto', sans-serif;
