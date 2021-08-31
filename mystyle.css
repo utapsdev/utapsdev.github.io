@@ -18,6 +18,9 @@
 .container .col-lg-3 img {
 	margin: 20px auto;
 }
+.row.col-md-7 #project-intro {
+	margin-top: 0px auto;
+}
 .carousel-caption h1 {
 	font-size: 5vw;
 	margin-top: -30%;
@@ -75,6 +78,9 @@
 #project-intro p {
 	line-height: 0.8;
 	font-weight: 500;
+	}
+#project-intro {
+	padding-top: 0px;
 }
 #project-btn1, #project-btn8 {
 	background-color: #4B4B4B;
@@ -370,4 +376,10 @@ h2.featurette-heading{
 
 .type {
 padding-bottom: 5px;	
+}
+.featured-projects  p {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-align: left;
+	padding-bottom: 15px;
 }
