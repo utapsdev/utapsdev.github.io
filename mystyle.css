@@ -387,3 +387,7 @@ h5 {
 	font-weight: bold;
   }
   
+  #t-title {
+	height:1.5em;
+	color: #b6b3b3;
+}
