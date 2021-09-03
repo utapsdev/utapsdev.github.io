@@ -25,7 +25,10 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
  /* height: 32rem; */
+ width: 100%;
   height: 400px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .carousel-item > img {
@@ -35,10 +38,14 @@ body {
   min-width: 100%;
  /* height: 32rem; */
   height: 400px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .carousel-inner{
   height: 400px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 
