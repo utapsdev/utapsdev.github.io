@@ -383,11 +383,24 @@ padding-bottom: 5px;
 	text-align: left;
 	padding-bottom: 15px;
 }
+.featured-projects a {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-decoration: none;
+	padding-bottom: 5 px;	
+}
+.featured-projects a:hover {
+	text-shadow: 0.5px 0.5px 0.5px #003472;
+}
 h5 {
 	font-weight: bold;
   }
   
-  #t-title {
+ #t-title {
 	height:1.5em;
 	color: #b6b3b3;
+}
+#ft-title h5 {
+	height:1.5em;
+	color:#c93756;
 }
