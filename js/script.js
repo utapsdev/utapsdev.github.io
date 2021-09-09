@@ -62,48 +62,48 @@ $(function() {
 		},false)
 		*/
 	// for publication page
-	var publications="snippet/snippet-publications.html";
-	$ajax.sendGetRequest(publications,
-		function(text) {
-			var publicationSnippet=text;
-			$ajax.sendGetRequest("snippet/publications.json",
-				function (text) {
-					var pubInfo=text;
-					var final_list="";
-					for (var i=0;i<pubInfo.length;i++) {
-						var tempPub=publicationSnippet;
-						var paperName=pubInfo[i].name;
-						var link=pubInfo[i].link;
-						var date=pubInfo[i].date;
-						tempPub=insertProperty(tempPub,"publication",paperName)
-						tempPub=insertProperty(tempPub,"link",link)
-						tempPub=insertProperty(tempPub,"date",date)
-						final_list+=tempPub}
+// 	var publications="snippet/snippet-publications.html";
+// 	$ajax.sendGetRequest(publications,
+// 		function(text) {
+// 			var publicationSnippet=text;
+// 			$ajax.sendGetRequest("snippet/publications.json",
+// 				function (text) {
+// 					var pubInfo=text;
+// 					var final_list="";
+// 					for (var i=0;i<pubInfo.length;i++) {
+// 						var tempPub=publicationSnippet;
+// 						var paperName=pubInfo[i].name;
+// 						var link=pubInfo[i].link;
+// 						var date=pubInfo[i].date;
+// 						tempPub=insertProperty(tempPub,"publication",paperName)
+// 						tempPub=insertProperty(tempPub,"link",link)
+// 						tempPub=insertProperty(tempPub,"date",date)
+// 						final_list+=tempPub}
 						
-					window.document.querySelector("#publications-list").innerHTML=final_list;
+// 					window.document.querySelector("#publications-list").innerHTML=final_list;
 				
-				},true)
-		},false)
+// 				},true)
+// 		},false)
 	
-//publication script
+// //publication script
 
-fetch('/snippet/paper.json')
-						.then(function (response) {
-							return response.json();
-						})
-						.then(function (data) {
-							appendData(data);
-						})
-						.catch(function (err) {
-							console.log('error: ' + err);
-						});
-					function appendData(data) {
-						var mainContainer = document.getElementById("myData");
-						for (var i = 0; i < data.length; i++) {
-							var div = document.createElement("div");
-						    div.innerHTML = ' ' + data[i].Name+ '* ' + data[i].link; 
-							mainContainer.appendChild(div);
-						}
-					}
+// fetch('/snippet/paper.json')
+// 						.then(function (response) {
+// 							return response.json();
+// 						})
+// 						.then(function (data) {
+// 							appendData(data);
+// 						})
+// 						.catch(function (err) {
+// 							console.log('error: ' + err);
+// 						});
+// 					function appendData(data) {
+// 						var mainContainer = document.getElementById("myData");
+// 						for (var i = 0; i < data.length; i++) {
+// 							var div = document.createElement("div");
+// 						    div.innerHTML = ' ' + data[i].Name+ '* ' + data[i].link; 
+// 							mainContainer.appendChild(div);
+// 						}
+// 					}
 
 					
